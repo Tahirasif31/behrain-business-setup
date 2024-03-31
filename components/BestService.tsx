@@ -32,9 +32,9 @@ function BestService() {
           all sizes.
         </p>
         <p className="mt-2 hidden md:block">
-          Whether you're a startup or an established enterprise, our affordable
-          yet high-quality offerings are designed to help you navigate the
-          intricacies of Bahraini regulations with confidence.
+          Whether you&apos;re a startup or an established enterprise, our
+          affordable yet high-quality offerings are designed to help you
+          navigate the intricacies of Bahraini regulations with confidence.
         </p>
       </div>
       <div>
