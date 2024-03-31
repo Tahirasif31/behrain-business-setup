@@ -6,7 +6,7 @@ export function SparklesPreview() {
   return (
     <div className="h-[13rem] md:h-[26rem] w-full bg-black flex flex-col items-center  overflow-hidden rounded-md">
       <h1 className="md:text-4xl text-3xl lg:text-5xl font-bold text-center text-white relative z-20">
-        Get Your Free AC Repair Quote Today!
+        Book Your Appointment Today!
       </h1>
       <div className="w-[40rem] h-40  relative">
         {/* Gradients */}

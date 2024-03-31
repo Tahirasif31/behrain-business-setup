@@ -12,7 +12,7 @@ export function ExpertsTeam() {
             <h1 className="text-4xl font-semibold text-white">
               Discover Your Ultimate <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                AC Solution Today!
+                Business Solution Today!
               </span>
             </h1>
           </>
@@ -25,74 +25,92 @@ export function ExpertsTeam() {
 export const users = [
   {
     name: "Manu Arora",
-    designation: "Insufficient Cooling",
-    image: "/solution-1.jpg",
+    designation: "Entity Selection",
+    image: "/tab-1.jpg",
     badge: "Mentor",
   },
   {
     name: "Sarah Singh",
-    designation: "Thermostat Malfunctions",
-    image: "/solution-2.jpg",
+    designation: "Tax Planning",
+    image: "/tab-2.jpg",
     badge: "Mentor",
   },
   {
     name: "John Doe",
-    designation: "Faulty Compressor",
-    image: "/solution-3.jpg",
+    designation: "Financial Statements",
+    image: "/beh-1.jpg",
     badge: "Mentor",
   },
   {
     name: "Jane Smith",
-    designation: "Ductwork Faults",
-    image: "/solution-4.jpg",
+    designation: "Company Registration",
+    image: "/tab-4.jpg",
     badge: "Mentor",
   },
   {
     name: "Robert Johnson",
-    designation: "System Performance",
-    image: "/solution-5.jpg",
+    designation: "Strategic Planning",
+    image: "/tab-5.jpg",
     badge: "Mentor",
   },
   {
     name: "Emily Davis",
-    designation: "Electrical Faults",
-    image: "/solution-6.jpg",
+    designation: "Financial Analysis",
+    image: "/beh-2.jpg",
     badge: "Mentor",
   },
   {
     name: "Emily Davis",
-    designation: "Blocked Condensate Drain",
-    image: "/solution-7.jpg",
+    designation: "Tax Preparation",
+    image: "/tab-7.jpg",
     badge: "Mentor",
   },
   {
     name: "Emily Davis",
-    designation: "Frozen Coils",
-    image: "/solution-8.jpg",
+    designation: "Business Valuation",
+    image: "/tab-8.jpg",
     badge: "Mentor",
   },
   {
     name: "Emily Davis",
-    designation: "Dirty Air Filter",
-    image: "/solution-9.jpg",
+    designation: "Tax Compliance",
+    image: "/tab-9.jpg",
     badge: "Mentor",
   },
   {
     name: "Emily Davis",
-    designation: "Refrigerant Leaks",
-    image: "/solution-10.jpg",
+    designation: "Budgeting and Forecasting",
+    image: "/tab-10.jpg",
     badge: "Mentor",
   },
   {
     name: "Emily Davis",
-    designation: "Faulty Outlets or Switches",
-    image: "/solution-11.jpg",
+    designation: "Succession Planning",
+    image: "/tab-11.jpg",
     badge: "Mentor",
   },
   {
     name: "Emily Davis",
-    designation: "Improper Grounding",
-    image: "/solution-12.jpg",
+    designation: "Regulatory Compliance",
+    image: "/tab-12.jpg",
+    badge: "Mentor",
+  },
+  {
+    name: "Emily Davis",
+    designation: "Tax Return Filing",
+    image: "/beh-4.jpg",
+    badge: "Mentor",
+  },
+  {
+    name: "Emily Davis",
+    designation: "Tax Dispute Resolution",
+    image: "/beh-7.jpg",
+    badge: "Mentor",
+  },
+  {
+    name: "Emily Davis",
+    designation: "Tax Credits & Incentives",
+    image: "/beh-8.jpg",
     badge: "Mentor",
   },
 ];

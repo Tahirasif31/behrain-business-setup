@@ -8,61 +8,48 @@ import { GlobeDemo } from "@/components/Globe";
 import { LayoutGridDemo } from "@/components/LayoutGrid";
 import { GetQuote } from "@/components/GetQuote";
 import { SparklesPreview } from "@/components/Sparkles";
+import Loading from "./../components/Loading";
 
 const review = [{}];
 
 const SERVICES = [
   {
-    title: "All Kind of Ac Repair",
+    title: "Company Incorporation and Registration",
     description:
-      "Our Split AC repair service offers quick and efficient solutions to keep your cooling system running smoothly. Our expert technicians diagnose and fix issues with precision, ensuring optimal performance and comfort.",
+      "Streamline your business setup in Bahrain with expert assistance in company incorporation and registration. Navigate legal requirements efficiently and launch your enterprise with confidence.",
   },
   {
-    title: "Building Centeral Cooling System",
+    title: "Tax Planning and Advisory",
     description:
-      "Experience our efficient AC ventilation installation service, guaranteeing optimal indoor air quality and comfort. Our expert technicians ensure a seamless installation process.",
+      "Expert tax planning and advisory services in Bahrain, offering strategic guidance to minimize tax liabilities while ensuring compliance with local regulations. Tailored solutions to optimize tax outcomes and support financial goals.",
   },
   {
-    title: "BUILDING FAHU AHU EXHAUST SYSTEM",
+    title: "Tax Compliance and Reporting",
     description:
-      "Discover our air filtration system installation service for superior indoor air quality. Our skilled technicians ensure seamless installation, promoting a healthy and comfortable environment",
+      "Expert assistance ensuring timely and accurate tax compliance for businesses in Bahrain. We handle all aspects of tax reporting, filing, and compliance, minimizing risks and optimizing financial efficiency.",
   },
 
   {
-    title: "Water Pumps",
+    title: "VAT Implementation and Support",
     description:
-      "Pumping Solutions (Building Service, Residential & Commercial, Irrigation & Agriculture, Industrial & Infrastructure, Waste Water)",
+      "Expert guidance for businesses in Bahrain navigating VAT implementation. From registration to compliance, we ensure seamless integration, accurate record-keeping, and proactive support for VAT-related challenges.",
   },
   {
-    title: "Swimming Pools",
+    title: "Accounting & Bookkeeping Services",
     description:
-      "We provide different type of Steam and Sauna. Steam baths use moist heat, saunas offer dry heat sessions. Steam rooms are kept at around...",
+      "Comprehensive accounting and bookkeeping services ensure accurate financial records, compliance with regulations, and informed decision-making for businesses, optimizing financial management.",
   },
   {
-    title: "Electrical & Plumbing",
+    title: "Business Advisory and Consulting",
     description:
-      "We offer full range of electrical and plumbing services for both residential and commercial clients. We provide qualified and trained...",
-  },
-  {
-    title: "Motor Winding",
-    description:
-      "We aim to get it right the first time, in good time and with the minimum of concern. We know how crucial it is to get your equipment...",
-  },
-  {
-    title: "Solar Water Heaters",
-    description:
-      "We provide reliable turnkey solar central heating systems to residential, commercial, and industrial facilities. We are professionally...",
-  },
-  {
-    title: "Professional Paint Services",
-    description:
-      "Revitalize your home or office with our skilled wall painting service. From color consultations to flawless execution, we've got you covered!",
+      "Strategic business advisory and consulting services offer tailored guidance for financial management, risk assessment, growth strategies, and corporate governance to optimize business performance and achieve organizational goals.",
   },
 ];
 
 export default function Home() {
   return (
     <div>
+      <Loading />
       <Hero />
       <section id="about">
         <About />
@@ -93,7 +80,7 @@ export default function Home() {
       <BestService />
       <section>
         <p className="text-[38px] font-[600] text-center">
-          AC Service&apos;s Matrix
+          Business Formation Essentials
         </p>
         <LayoutGridDemo />
       </section>

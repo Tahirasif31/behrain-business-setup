@@ -18,32 +18,32 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "Exceptional Service! The team at [your company] Facilities exceeded my expectations with their AC repair and duct cleaning services. Prompt response, thorough inspection, and efficient repairs left my home feeling cooler and fresher than ever. Highly recommend their expertise!",
+      "Exceptional service! They guided me through every step of setting up my business in Bahrain, making the process smooth and stress-free. Their expertise in taxation ensured that I remained compliant while maximizing my savings",
     name: "Ahmed Abdullah Al-Mansoori",
-    title: "Ras Al Khaimah",
+    title: "Manama",
   },
   {
     quote:
-      "شريك صيانة فعال للشركات! [your company] Facilities كانت شريكنا الموثوق به لسنوات، وتقدم خدمات موثوقة في إصلاح تكييف الهواء وتنظيف الأنابيب. ما زالوا يبهرون بمهنيتهم وخبرتهم",
+      "بالتأكيد! قدم فريق هذه الشركة لخدمات تأسيس الأعمال والضرائب نصائح غاية في القيمة بخصوص هيكلة شركتي لتحقيق كفاءة ضريبية مثالية. كان احترافهم واهتمامهم بالتفاصيل متفوقًا على توقعاتي",
     name: "عبدالله صالح الفلاسي",
-    title: "أم القيوين",
+    title: "الرفاع ",
   },
   {
     quote:
-      "Reliable Partner for Corporate Maintenance! As a facilities manager, I entrust [your company] Facilities with the maintenance of our corporate AC systems and ductwork. Their team's expertise and dedication ensure that our facilities remain at optimal comfort levels year-round. ",
+      "Trusted partner! I've been using their services for years, and I couldn't be happier. Their knowledgeable team consistently delivers accurate, timely solutions, allowing me to focus on growing my business with confidence. ",
     name: "Zahraat Al-Sayf",
-    title: "Fujairah",
+    title: "Isa Town",
   },
   {
     quote:
-      "خدمة بخمس نجوم! لا يمكنني القول بما فيه الكفاية عن [your company] Facilities. من جدولة الموعد إلى إكمال العمل، قدم فريقهم الاحترافية والخبرة في كل خطوة من الطريق",
+      "خبرة مذهلة! فهمهم العميق لقوانين ولوائح الضرائب البحرينية أنقذني وقتًا ومالًا. أنا ممتن لنهجهم الاستباقي في التخطيط الضريبي، مما ضمن أنني كنت دائمًا مستعدًا لأي تغييرات.",
     name: "خالد علي الحمادي",
-    title: "عجمان",
+    title: "سترة ",
   },
   {
     quote:
-      "Outstanding Experience! I called [your company] Facilities for AC repair and duct cleaning, and I'm incredibly impressed with the quality of their work. ",
+      "Top-notch service! Whether it's answering my tax-related queries or assisting with complex business formations, they always go above and beyond. I'm grateful for their professionalism and commitment to excellence",
     name: "Fatima Mohammed Al-Hashemi",
-    title: "Abu Dhabi ",
+    title: "Muharraq",
   },
 ];

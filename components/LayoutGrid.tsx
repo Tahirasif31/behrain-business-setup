@@ -13,11 +13,11 @@ export function LayoutGridDemo() {
 const SkeletonOne = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Split / AC Cooling Issue</p>
+      <p className="font-bold text-4xl text-white">Compliance Management</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Resolving your AC cooling issues swiftly, keeping your space comfortably
-        cool year-round.
+        Develop a system to monitor and ensure compliance with all relevant
+        laws, regulations, and reporting requirements.
       </p>
     </div>
   );
@@ -26,14 +26,12 @@ const SkeletonOne = () => {
 const SkeletonTwo = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">
-        Chiller Plant Optimization
-      </p>
+      <p className="font-bold text-4xl text-white">Financial Planning</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Engage qualified technicians to diagnose and address complex issues
-        within the chiller plant system, ensuring efficient operation and
-        optimal cooling performance.
+        Establish a solid financial plan that includes budgeting, forecasting,
+        and cash flow management to support sustainable growth and profitability
+        while minimizing financial risks and uncertainties.
       </p>
     </div>
   );
@@ -42,12 +40,13 @@ const SkeletonThree = () => {
   return (
     <div>
       <p className="font-bold text-4xl text-white">
-        Corporate Air Conditioning Solutions
+        Registration and Licensing
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Tailored cooling solutions for corporate environments, ensuring comfort
-        and productivity year-round.
+        Complete the necessary registration and licensing requirements with the
+        relevant government authorities to establish your business as a legal
+        entity and operate legally within your jurisdiction
       </p>
     </div>
   );
@@ -55,11 +54,13 @@ const SkeletonThree = () => {
 const SkeletonFour = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Ducted AC Care</p>
+      <p className="font-bold text-4xl text-white">Scalability Planning</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Comprehensive maintenance solutions tailored to preserve efficiency and
-        reliability in your ducted air conditioning system.
+        Develop a scalable business model and infrastructure that allows for
+        growth and expansion over time, including strategies for scaling
+        operations, resources, and processes to meet increasing demand and seize
+        new opportunities.
       </p>
     </div>
   );
@@ -70,24 +71,24 @@ const cards = [
     id: 1,
     content: <SkeletonOne />,
     className: "md:col-span-2",
-    thumbnail: "/eight.jpg",
+    thumbnail: "/call.jpg",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
-    thumbnail: "/solution-two.jpg",
+    thumbnail: "/call-2.jpg",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
-    thumbnail: "/ten.jpg",
+    thumbnail: "/call-8.jpg",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
-    thumbnail: "/two.jpg",
+    thumbnail: "/call-5.jpg",
   },
 ];

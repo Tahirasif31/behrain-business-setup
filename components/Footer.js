@@ -7,11 +7,10 @@ function Footer() {
     <footer className={`${styles.footer} bg-gray-900`}>
       <div className={styles.container}>
         <div className={styles.join}>
-          <h2 className={styles.logo}>Your Company</h2>
+          <h2 className={styles.logo}>Bahrain Business Setup</h2>
           <p className={styles.description}>
-            Unlock year&ndash;round comfort with our premium AC repair
-            solutions. Experience reliable service and cool relief,
-            hassle&ndash;free.
+            Bahrain Business Setup streamlines the process, ensuring seamless
+            establishment and growth opportunities for your venture in Bahrain.
           </p>
           <div className={styles.contactContainer}>
             <div className={styles.email}>
@@ -25,12 +24,11 @@ function Footer() {
           </div>
         </div>
         <div className={styles.submit}>
-          <h2 className={styles.submitTitle}>
-            Let&apos;s Submit Quote Request!
-          </h2>
+          <h2 className={styles.submitTitle}>Let&apos;s Book Appointment!</h2>
           <p className={styles.submitDescription}>
-            Ready to take the first step towards a cooler tomorrow? Submit your
-            quote request today and let us bring comfort to your doorstep.
+            eady to take the first step towards a smoother business journey?
+            Submit your quote request today and let us pave the way for your
+            success.
           </p>
           <div className={styles.icons}>
             <ion-icon name={"logo-facebook"}></ion-icon>
