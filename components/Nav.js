@@ -19,7 +19,7 @@ function Nav() {
 
   return (
     <nav className="flex justify-between md:mt-4 py-2 z-50 align-middle items-center 2xl:mx-28 xl:mx-20 md:mx-8 border border-[#FFFFFF]/[0.16] px-4 rounded-lg bg-[#00000052]">
-      <span className="md:ml-3 ml-1">Bahrain Business Setup</span>
+      <span className="md:ml-3 ml-1 z-50">Bahrain Business Setup</span>
       <div
         className={`md:static absolute ${
           showCompanyFormation || showRenewalAmendments
@@ -54,7 +54,7 @@ function Nav() {
               }`}
               style={{ left: "-50%", width: "200%" }}
             >
-              <Link href="/services/service1">
+              <Link href="/company-formation-in-bahrain">
                 <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
                   Company Formation in Bahrain
                 </span>
@@ -160,7 +160,7 @@ function Nav() {
       <button
         type="button"
         onClick={() => setShowNav(!showNav)}
-        className="md:hidden cursor-pointer"
+        className="md:hidden cursor-pointer z-50"
       >
         <div
           className={`w-[23px] h-[2px] transition ease-in duration-150  bg-white ${

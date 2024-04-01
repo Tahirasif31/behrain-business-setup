@@ -9,7 +9,6 @@ import { LayoutGridDemo } from "@/components/LayoutGrid";
 import { GetQuote } from "@/components/GetQuote";
 import { SparklesPreview } from "@/components/Sparkles";
 import Loading from "./../components/Loading";
-
 const review = [{}];
 
 const SERVICES = [
