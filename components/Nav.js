@@ -18,18 +18,18 @@ function Nav() {
   };
 
   return (
-    <nav className="flex justify-between md:mt-4 py-2 z-50 align-middle items-center 2xl:mx-28 xl:mx-20 md:mx-8 border border-[#FFFFFF]/[0.16] px-4 rounded-lg bg-[#00000052]">
-      <span className="md:ml-3 ml-1 z-50">Bahrain Business Setup</span>
+    <nav className="flex justify-between lg:mt-4 py-2 z-50 align-middle items-center 2xl:mx-20 xl:mx-5 lg:mx-8 border border-[#FFFFFF]/[0.16] 2xl:px-4 rounded-lg bg-[#00000052]">
+      <span className="md:ml-3 ml-1">Bahrain Business Setup</span>
       <div
-        className={`md:static absolute ${
+        className={`lg:static absolute ${
           showCompanyFormation || showRenewalAmendments
             ? "bg-[#000000d8]"
             : "bg-[#0000006a]"
-        }  md:bg-transparent min-h-[16vh] left-0 ${
+        }  lg:bg-transparent min-h-[16vh] left-0 ${
           showNav ? "top-[5.9%]" : "top-[-100%]"
-        } py-4 md:min-h-fit w-full md:w-auto flex items-center md:px-5 z-50`}
+        } py-4 lg:min-h-fit w-full lg:w-auto flex items-center 2xl:px-5 z-50`}
       >
-        <ul className="flex md:flex-row flex-col md:gap-[3vw] px-4 gap-8 md:items-center">
+        <ul className="flex lg:flex-row flex-col xl:gap-1 2xl:gap-8 px-4 gap-8 lg:items-center">
           <li>
             <a href="#about">About</a>
           </li>
@@ -49,48 +49,48 @@ function Nav() {
               </span>
             </span>
             <div
-              className={`md:absolute md:bg-white mt-2 py-2 rounded-md shadow-lg md:group-hover:block md:w-full md:text-center ${
+              className={`lg:absolute lg:bg-white mt-2 py-2 rounded-md shadow-lg lg:group-hover:block md:w-full lg:text-center ${
                 showCompanyFormation ? "block" : "hidden"
               }`}
               style={{ left: "-50%", width: "200%" }}
             >
               <Link href="/company-formation-in-bahrain">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Company Formation in Bahrain
                 </span>
               </Link>
               <Link href="/services/service2">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   How to Start Business in Bahrain
                 </span>
               </Link>
               <Link href="/services/service3">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   WLL Company Formation
                 </span>
               </Link>
               <Link href="/services/service3">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Business License Registration Cost
                 </span>
               </Link>
               <Link href="/services/service3">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Bahrain CR Activites
                 </span>
               </Link>
               <Link href="/services/service3">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Business License Renewal Fee
                 </span>
               </Link>
               <Link href="/services/service3">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Security Clearence Defected
                 </span>
               </Link>
               <Link href="/services/service3">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Investor Visa in Bahrain
                 </span>
               </Link>
@@ -109,33 +109,33 @@ function Nav() {
               </span>
             </span>
             <div
-              className={`md:absolute md:bg-white mt-2 py-2 rounded-md shadow-lg md:group-hover:block md:w-full md:text-center ${
+              className={`lg:absolute lg:bg-white mt-2 py-2 rounded-md shadow-lg lg:group-hover:block md:w-full lg:text-center ${
                 showRenewalAmendments ? "block" : "hidden"
               }`}
               style={{ left: "-50%", width: "200%" }}
             >
               <Link href="/services/service1">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   CR Renewal Bahrain
                 </span>
               </Link>
               <Link href="/services/service2">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Open New Branch of CR
                 </span>
               </Link>
               <Link href="/services/service3">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Economic Substances Return
                 </span>
               </Link>
               <Link href="/services/service3">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Business License Registration Cost
                 </span>
               </Link>
               <Link href="/services/service3">
-                <span className="block px-4 py-2 md:text-gray-800 md:hover:bg-gray-200">
+                <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Bahrain CR Activites
                 </span>
               </Link>
@@ -160,7 +160,7 @@ function Nav() {
       <button
         type="button"
         onClick={() => setShowNav(!showNav)}
-        className="md:hidden cursor-pointer z-50"
+        className="lg:hidden cursor-pointer"
       >
         <div
           className={`w-[23px] h-[2px] transition ease-in duration-150  bg-white ${
