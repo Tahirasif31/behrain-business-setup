@@ -21,8 +21,8 @@ function Nav() {
   return (
     <>
       {isLoading && <Loading />}
-      <nav className="flex justify-between lg:mt-4 py-2  align-middle items-center 2xl:mx-20 xl:mx-5 lg:mx-8 border border-[#FFFFFF]/[0.16] px-4 xl:px-0 2xl:px-4 rounded-lg bg-[#00000052] z-30">
-        <span className="md:ml-3 ml-1">Bahrain Business Setup</span>
+      <nav className="flex justify-between lg:mt-4 py-2  align-middle items-center 2xl:mx-20 xl:mx-5 lg:mx-8 border border-[#FFFFFF]/[0.16] px-4 xl:px-0 2xl:px-4 rounded-lg bg-[#00000052] z-50">
+        <span className="md:ml-3 ml-1 z-40">Bahrain Business Setup</span>
         <div
           className={`lg:static absolute ${
             showCompanyFormation || showRenewalAmendments
@@ -132,29 +132,26 @@ function Nav() {
                 }`}
                 style={{ left: "-50%", width: "200%" }}
               >
-                <Link href="/services/service1">
-                  <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
-                    CR Renewal Bahrain
-                  </span>
-                </Link>
-                <Link href="/services/service2">
+                <Link
+                  href="/open-new-branch-of-cr"
+                  onClick={() => {
+                    setShowCompanyFormation(false);
+                    setIsLoading(true);
+                  }}
+                >
                   <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                     Open New Branch of CR
                   </span>
                 </Link>
-                <Link href="/services/service3">
+                <Link
+                  href="/economic-substance-return"
+                  onClick={() => {
+                    setShowCompanyFormation(false);
+                    setIsLoading(true);
+                  }}
+                >
                   <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                     Economic Substances Return
-                  </span>
-                </Link>
-                <Link href="/services/service3">
-                  <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
-                    Business License Registration Cost
-                  </span>
-                </Link>
-                <Link href="/services/service3">
-                  <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
-                    Bahrain CR Activites
                   </span>
                 </Link>
               </div>
@@ -178,7 +175,7 @@ function Nav() {
         <button
           type="button"
           onClick={() => setShowNav(!showNav)}
-          className="lg:hidden cursor-pointer"
+          className="lg:hidden cursor-pointer z-40"
         >
           <div
             className={`w-[23px] h-[2px] transition ease-in duration-150  bg-white ${
