@@ -31,10 +31,10 @@ function Nav() {
       >
         <ul className="flex lg:flex-row flex-col xl:gap-1 2xl:gap-8 px-4 gap-8 lg:items-center">
           <li>
-            <a href="#about">About</a>
+            <a href="/#about">About</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="/#services">Services</a>
           </li>
           <li className="relative group">
             <span className="text-white cursor-pointer group-hover:text-gray-300">
@@ -49,12 +49,15 @@ function Nav() {
               </span>
             </span>
             <div
-              className={`lg:absolute lg:bg-white mt-2 py-2 rounded-md shadow-lg lg:group-hover:block md:w-full lg:text-center ${
+              className={`lg:absolute lg:bg-white mt-2 py-2 rounded-md shadow-lg md:w-full lg:text-center ${
                 showCompanyFormation ? "block" : "hidden"
               }`}
               style={{ left: "-50%", width: "200%" }}
             >
-              <Link href="/company-formation-in-bahrain">
+              <Link
+                href="/company-formation-in-bahrain"
+                onClick={() => setShowCompanyFormation(false)}
+              >
                 <span className="block px-4 py-2 lg:text-gray-800 lg:hover:bg-gray-200">
                   Company Formation in Bahrain
                 </span>
@@ -109,7 +112,7 @@ function Nav() {
               </span>
             </span>
             <div
-              className={`lg:absolute lg:bg-white mt-2 py-2 rounded-md shadow-lg lg:group-hover:block md:w-full lg:text-center ${
+              className={`lg:absolute lg:bg-white mt-2 py-2 rounded-md shadow-lg  md:w-full lg:text-center ${
                 showRenewalAmendments ? "block" : "hidden"
               }`}
               style={{ left: "-50%", width: "200%" }}
@@ -142,10 +145,10 @@ function Nav() {
             </div>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#solutions">Top Solutions</a>
+            <a href="/#solutions">Top Solutions</a>
           </li>
         </ul>
       </div>
