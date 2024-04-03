@@ -15,11 +15,11 @@ function Footer() {
           <div className={styles.contactContainer}>
             <div className={styles.email}>
               <p className={styles.info}>Email us at</p>
-              <p className={styles.address}>Tahirasif31@gmail.com</p>
+              <p className={styles.address}>infobkr@bkrgroup.co</p>
             </div>
             <div className={styles.phone}>
               <p className={styles.info}>Call us at</p>
-              <p className={styles.address}>+92 317 33 62620</p>
+              <p className={styles.address}>+973 35 61 5033</p>
             </div>
           </div>
         </div>

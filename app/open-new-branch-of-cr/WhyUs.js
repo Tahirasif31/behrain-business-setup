@@ -6,8 +6,8 @@ function WhyUs() {
       <h2 className="text-2xl font-bold mb-4 text-center">Why Choose Us?</h2>
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <li className="flex flex-col items-center justify-center p-4 rounded-lg shadow-md hover:shadow-lg-xl bg-gray-800">
-          <span className="text-4xl font-bold text-white">100%</span>
-          <p className="text-lg text-gray-300 mt-2">Money Back Guarantee</p>
+          <span className="text-4xl font-bold text-white">7</span>
+          <p className="text-lg text-gray-300 mt-2">years of experience</p>
         </li>
         <li className="flex flex-col items-center justify-center p-4 rounded-lg shadow-md hover:shadow-lg-xl bg-gray-800">
           <span className="text-4xl font-bold text-white">400+</span>
