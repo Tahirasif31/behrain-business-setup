@@ -27,7 +27,7 @@ export function HeroText() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem] z-40">
+    <div className="flex flex-col items-center justify-center h-[40rem] z-20">
       <p className="text-neutral-200 text-[13px] sm:text-base  ">
         Transform your dream into reality.
       </p>

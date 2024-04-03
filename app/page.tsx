@@ -6,8 +6,8 @@ import BestService from "@/components/BestService";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCard";
 import { GlobeDemo } from "@/components/Globe";
 import { LayoutGridDemo } from "@/components/LayoutGrid";
-import { GetQuote } from "@/components/GetQuote";
-import { SparklesPreview } from "@/components/Sparkles";
+import QuoteRequest from "./../components/QuoteRequest";
+
 import Loading from "./../components/Loading";
 import LoaderPageTransition from "./../components/LoaderPageTransition";
 const review = [{}];
@@ -85,16 +85,7 @@ export default function Home() {
         <LayoutGridDemo />
       </section>
       <InfiniteMovingCardsDemo />
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto xl:max-w-[1080px] md:max-w-[1000px] py-[100px] lg:gap-3 gap-8 px-5 items-center">
-        <div className="">
-          <div>
-            <SparklesPreview />
-          </div>
-        </div>
-        <div id="contact">
-          <GetQuote />
-        </div>
-      </div>
+      <QuoteRequest />
     </div>
   );
 }

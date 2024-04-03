@@ -1,10 +1,19 @@
 "use client";
 import React from "react";
 import { Boxes } from "./../components/ui/background-Boxes";
-import { cn } from "./../utils/cn";
 import Nav from "./Nav";
 
-export function BackgroundBoxesDemo() {
+interface BackgroundBoxesDemoProps {
+  title: string;
+  subtitle: string;
+  desc: string;
+}
+
+export function BackgroundBoxesDemo({
+  title,
+  subtitle,
+  desc,
+}: BackgroundBoxesDemoProps) {
   return (
     <div className="bg-slate-900 pt-1">
       <div>
@@ -16,13 +25,13 @@ export function BackgroundBoxesDemo() {
         <Boxes />
         <div className="flex flex-col justify-center items-center mt-8">
           <h1 className="text-4xl md:text-5xl text-white font-bold text-center mt-24">
-            Company Formation In Bahrain
+            {title}
           </h1>
           <p className="text-lg text-neutral-300 text-center mt-2">
-            Easy And Fast Processing
+            {subtitle}
           </p>
-          <p className="text-lg text-neutral-500 font-semibold mt-4">
-            7 Simple Steps of Company Formation in Bahrain
+          <p className="text-sm md:text-lg text-neutral-500 font-semibold mt-4 text-center">
+            {desc}
           </p>
         </div>
       </div>

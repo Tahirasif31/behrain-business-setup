@@ -1,9 +1,14 @@
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxes";
+import QuoteRequest from "@/components/QuoteRequest";
 
-function Company() {
+function CompanyFormation() {
   return (
     <div>
-      <BackgroundBoxesDemo />
+      <BackgroundBoxesDemo
+        title={"Company Formation In Bahrain"}
+        subtitle={"Easy And Fast Processing"}
+        desc={"7 Simple Steps of Company Formation in Bahrain"}
+      />
       <div class="text-base mx-3 md:mx-auto xl:max-w-[1080px] md:max-w-[1000px] pt-10">
         <section className="container mx-auto px-4 py-8 bg-black text-white">
           <h2 className="text-2xl font-bold mb-4 text-blue-500">
@@ -501,7 +506,8 @@ function Company() {
           </li>
         </ul>
       </section>
+      <QuoteRequest />
     </div>
   );
 }
-export default Company;
+export default CompanyFormation;
