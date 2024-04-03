@@ -1,6 +1,6 @@
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxes";
 import CRBahrain from "./CRBahrain";
-import CROwnershipRights from "./CrOwnershipRights";
+import CROwnershipRights from "./CROwnershipRights";
 import CRRegistrationType from "./CRRegistrationType";
 import QuoteRequest from "@/components/QuoteRequest";
 
