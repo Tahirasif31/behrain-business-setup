@@ -39,10 +39,6 @@ function CompanyFormation() {
 
           <p className="text-gray-200 mt-4">**Our Expertise:**</p>
           <ul className="list-disc pl-4 space-y-2 text-gray-200">
-            <li>
-              We stay updated on the latest requirements (e.g., Power of
-              Attorney no longer required).
-            </li>
             <li>We guide you through each step of the registration process.</li>
             <li>We assist you in preparing all necessary documentation.</li>
           </ul>
