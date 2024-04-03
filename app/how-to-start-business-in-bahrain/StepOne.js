@@ -1,6 +1,6 @@
 function StepOne() {
   return (
-    <div className="mb-8 mt-8 md:mx-auto xl:max-w-[1080px] md:max-w-[1000px]">
+    <div className="mb-8 mt-8 mx-3 md:mx-auto xl:max-w-[1080px] md:max-w-[1000px]">
       <h3 className="text-xl font-bold mb-2 text-blue-500">
         Step 1: Choose the Business Activity
       </h3>

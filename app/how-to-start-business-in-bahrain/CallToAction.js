@@ -1,6 +1,6 @@
 function CallToAction() {
   return (
-    <div className="bg-blue-500 text-white rounded-md px-8 py-4 text-center">
+    <div className="bg-blue-500 mx-3 text-white rounded-md px-8 py-4 text-center">
       <h3 className="text-xl font-bold mb-2">
         Choose Bahrain Business Setup for Your Business Registration
       </h3>

@@ -14,7 +14,7 @@ function StartBusiness() {
         subtitle="Your guide to starting and thriving in Bahrain's business landscape."
       />
       <section className="bg-gray-800">
-        <div className=" text-white px-8 py-10 rounded-md md:mx-auto xl:max-w-[1080px] md:max-w-[1000px]">
+        <div className=" text-white px-8 py-10 rounded-md mx-3 md:mx-auto xl:max-w-[1080px] md:max-w-[1000px]">
           <h2>The Kingdom of Bahrain</h2>
           <p className="text-gray-300 mb-4">
             Located in the Middle East, Bahrain is a small island nation (765.3
@@ -48,7 +48,7 @@ function StartBusiness() {
           </ul>
         </div>
       </section>
-      <div className="text-center mt-8 md:mx-auto xl:max-w-[1080px] md:max-w-[1000px]">
+      <div className="text-center mt-8 mx-3 md:mx-auto xl:max-w-[1080px] md:max-w-[1000px]">
         <h2 className="text-2xl font-bold mb-4 text-blue-500">
           Starting a Business in Bahrain
         </h2>
