@@ -18,27 +18,13 @@ const SERVICES = [
     description:
       "Streamline your business setup in Bahrain with expert assistance in company incorporation and registration. Navigate legal requirements efficiently and launch your enterprise with confidence.",
   },
-  {
-    title: "Tax Planning and Advisory",
-    description:
-      "Expert tax planning and advisory services in Bahrain, offering strategic guidance to minimize tax liabilities while ensuring compliance with local regulations. Tailored solutions to optimize tax outcomes and support financial goals.",
-  },
+
   {
     title: "Tax Compliance and Reporting",
     description:
       "Expert assistance ensuring timely and accurate tax compliance for businesses in Bahrain. We handle all aspects of tax reporting, filing, and compliance, minimizing risks and optimizing financial efficiency.",
   },
 
-  {
-    title: "VAT Implementation and Support",
-    description:
-      "Expert guidance for businesses in Bahrain navigating VAT implementation. From registration to compliance, we ensure seamless integration, accurate record-keeping, and proactive support for VAT-related challenges.",
-  },
-  {
-    title: "Accounting & Bookkeeping Services",
-    description:
-      "Comprehensive accounting and bookkeeping services ensure accurate financial records, compliance with regulations, and informed decision-making for businesses, optimizing financial management.",
-  },
   {
     title: "Business Advisory and Consulting",
     description:

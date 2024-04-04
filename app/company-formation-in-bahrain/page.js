@@ -1,5 +1,6 @@
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxes";
 import QuoteRequest from "@/components/QuoteRequest";
+import Image from "next/image";
 
 function CompanyFormation() {
   return (
@@ -458,7 +459,6 @@ function CompanyFormation() {
             </li>
           </ul>
         </div>
-
         <div className="w-full md:w-2/5 mb-4 md:mb-0 order-1 md:order-2 flex justify-center">
           <img
             src="beh-3.jpg"
@@ -467,41 +467,52 @@ function CompanyFormation() {
           />
         </div>
       </section>
-      <section className="container mx-auto px-4 py-8 bg-black text-white md:mx-auto xl:max-w-[1080px] md:max-w-[1000px]">
-        <h2 className="text-2xl font-bold mb-4 text-blue-500">
-          Why Register a Company in Bahrain?
-        </h2>
-
-        <ul className="list-disc pl-4 space-y-2">
-          <li className="text-gray-200">
-            **Gateway to Business Opportunities:** Company registration is the
-            essential first step to launching your business in Bahrain and
-            unlocking its potential.
-          </li>
-          <li className="text-gray-200">
-            **Tax Advantages:** Bahrain boasts a 0% corporate and income tax
-            rate, making it an attractive location for offshore company
-            formation.
-          </li>
-          <li className="text-gray-200">
-            **Flexible Business Structures:** The commercial register empowers
-            you to choose the most suitable business structure, including sole
-            proprietorship, partnership, or a company (WLL companies are a
-            popular choice).
-          </li>
-          <li className="text-gray-200">
-            **Investment-Friendly Environment:** Bahrain is renowned for its
-            investor-friendly business and corporate environment, offering a
-            welcoming space for both local and foreign investors, including
-            startups.
-          </li>
-          <li className="text-gray-200">
-            **Simplified Registration Process:** The new Sijilat system
-            streamlines company registration with its online application and
-            approval process, saving you time and effort.
-          </li>
-        </ul>
+      <section class="container mx-auto px-4 py-8 bg-black text-white flex flex-wrap justify-center items-center  md:mx-auto xl:max-w-[1080px] md:max-w-[1000px]">
+        <div class="w-full md:w-1/2 py-10 rounded-md mx-3 md:mx-auto xl:max-w-[540px] md:max-w-[500px]">
+          <Image
+            src="/botig.png"
+            alt="Company registering in Bahrain"
+            class="rounded-md shadow-md hover:brightness-110 object-cover"
+            width={500}
+            height={500}
+          />
+        </div>
+        <div class="w-full md:w-1/2 px-4">
+          <h2 class="text-2xl font-bold mb-4 text-blue-500">
+            Why Register a Company in Bahrain?
+          </h2>
+          <ul class="list-disc pl-4 space-y-2 text-gray-200">
+            <li class="text-gray-200">
+              **Gateway to Business Opportunities:** Company registration is the
+              essential first step to launching your business in Bahrain and
+              unlocking its potential.
+            </li>
+            <li class="text-gray-200">
+              **Tax Advantages:** Bahrain boasts a 0% corporate and income tax
+              rate, making it an attractive location for offshore company
+              formation.
+            </li>
+            <li class="text-gray-200">
+              **Flexible Business Structures:** The commercial register empowers
+              you to choose the most suitable business structure, including sole
+              proprietorship, partnership, or a company (WLL companies are a
+              popular choice).
+            </li>
+            <li class="text-gray-200">
+              **Investment-Friendly Environment:** Bahrain is renowned for its
+              investor-friendly business and corporate environment, offering a
+              welcoming space for both local and foreign investors, including
+              startups.
+            </li>
+            <li class="text-gray-200">
+              **Simplified Registration Process:** The new Sijilat system
+              streamlines company registration with its online application and
+              approval process, saving you time and effort.
+            </li>
+          </ul>
+        </div>
       </section>
+
       <QuoteRequest />
     </div>
   );

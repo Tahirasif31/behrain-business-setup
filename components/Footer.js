@@ -9,8 +9,8 @@ function Footer() {
         <div className={styles.join}>
           <h2 className={styles.logo}>Bahrain Business Setup</h2>
           <p className={styles.description}>
-            Bahrain Business Setup streamlines the process, ensuring seamless
-            establishment and growth opportunities for your venture in Bahrain.
+            Office Address: Building: 2196 Road: 3640 Block: 436 10th floor,
+            office Number 101 Al Seef, Bahrain.
           </p>
           <div className={styles.contactContainer}>
             <div className={styles.email}>
